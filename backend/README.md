@@ -1,3 +1,90 @@
+# Web-PWA
+
+Este es un proyecto de una API RESTful desarrollada con NestJS y TypeORM para la gestión de un sistema de inventario y gestión de pedidos.
+
+## Descripción
+
+La API gestiona diversas entidades relacionadas con el inventario y los pedidos, incluyendo:
+
+* **Categorías:** Clasificación de productos.
+* **Productos:** Información detallada de los productos.
+* **Usuarios:** Gestión de usuarios del sistema.
+* **Proveedores:** Información de los proveedores.
+* **Pedidos:** Registro de pedidos realizados.
+* **Detalles de Pedido:** Detalles específicos de cada pedido.
+* **Inventario:** Gestión de stock de productos.
+* **Movimientos de Inventario:** Registro de entradas y salidas de productos.
+* **Alertas de Stock:** Notificaciones de stock bajo.
+* **Reportes:** Generación de informes del sistema.
+* **Roles:** Gestión de permisos de usuarios.
+* **Empresas:** Información de las empresas.
+
+## Tecnologías Utilizadas
+
+* NestJS
+* TypeORM
+* TypeScript
+* Node.js
+
+## Cómo Ejecutar el Proyecto
+
+1.  **Clonar el repositorio:**
+
+    ```bash
+    git clone [https://github.com/ENiko-Gh/Web-PWA.git](https://github.com/ENiko-Gh/Web-PWA.git)
+    cd Web-PWA
+    ```
+
+2.  **Instalar dependencias:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Configurar la base de datos:**
+    * Crea una base de datos y actualiza las credenciales en el archivo `ormconfig.json`.
+
+4.  **Ejecutar la aplicación:**
+
+    ```bash
+    npm run start:dev
+    ```
+
+## Próximas Mejoras
+
+* Implementación de pruebas unitarias.
+* Documentación detallada de la API.
+* Mejoras en el manejo de errores.
+* Implementación de autenticación y autorización.
+
+## Contacto
+
+Clonar el REpositorio 
+
+
+https://github.com/ENiko-Gh/Web-PWA.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
